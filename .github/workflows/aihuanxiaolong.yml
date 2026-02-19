@@ -1,8 +1,9 @@
 name: aihuanxiaolong
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '7 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,15 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: aihuanxiaolong
         env:
-          s0279: ${{ secrets.s0279 }}
+          tcjss0207: ${{ secrets.tcjss0207 }}
         run: |
-          echo $s0279 | jq -r .dwzqe51 | /bin/bash
-          echo $a9970 | jq -r .qsb9224 | /bin/bash
-          echo $e94 | jq -r .f467 | /bin/bash
-          echo $hb13 | jq -r .uwqhk68 | /bin/bash
-          echo $oqwts83459 | jq -r .fh12848 | /bin/bash
-          echo $wawsx34249 | jq -r .av7 | /bin/bash
-          echo $fn69 | jq -r .prjq19 | /bin/bash
-          echo $yr5 | jq -r .xg11 | /bin/bash
-          echo $dk0954 | jq -r .iu047 | /bin/bash
+          echo $tcjss0207 | jq -r .a79395 | /bin/bash
+          echo $wrs1127 | jq -r .nr99093 | /bin/bash
+          echo $uycoh3 | jq -r .zqimq652 | /bin/bash
+          echo $rj94 | jq -r .t306 | /bin/bash
+          echo $wyh78787 | jq -r .itos801 | /bin/bash
+          echo $si8 | jq -r .b2922 | /bin/bash
+          echo $ht19637 | jq -r .pw30398 | /bin/bash
+          echo $qnhy458 | jq -r .tm33 | /bin/bash
+          echo $tube147 | jq -r .tln359 | /bin/bash
+          echo $ek441 | jq -r .vi277 | /bin/bash
+          echo $iyke502 | jq -r .tdgh78944 | /bin/bash
+          echo $chyks65 | jq -r .hkjnh32 | /bin/bash
+          echo $mqm5978 | jq -r .v65336 | /bin/bash
 
