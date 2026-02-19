@@ -1,0 +1,24 @@
+name: aihuanxiaolong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: aihuanxiaolong
+        env:
+          s0279: ${{ secrets.s0279 }}
+        run: |
+          echo $s0279 | jq -r .dwzqe51 | /bin/bash
+          echo $a9970 | jq -r .qsb9224 | /bin/bash
+          echo $e94 | jq -r .f467 | /bin/bash
+          echo $hb13 | jq -r .uwqhk68 | /bin/bash
+          echo $oqwts83459 | jq -r .fh12848 | /bin/bash
+          echo $wawsx34249 | jq -r .av7 | /bin/bash
+          echo $fn69 | jq -r .prjq19 | /bin/bash
+          echo $yr5 | jq -r .xg11 | /bin/bash
+          echo $dk0954 | jq -r .iu047 | /bin/bash
+
